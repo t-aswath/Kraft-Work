@@ -1,0 +1,31 @@
+body {
+  background: #004b84;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.container {
+  background: #79c9fa;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#calc {
+  padding: 10px;
+}
+
+.bt {
+  height: 40px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background: #ffffff;
+}
+.bt:hover {
+  background: whitesmoke;
+}
