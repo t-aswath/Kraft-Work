@@ -1,11 +1,10 @@
 body {
   background: #004b84;
-  width: 100vh;
-  height: 100vh;
 }
 
 .container {
   background: #79c9fa;
   height: 90%;
   width: 90%;
+  justify-items: center;
 }
