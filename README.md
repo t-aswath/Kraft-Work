@@ -16,6 +16,15 @@ Kraft Work is a tool designed for Competitive Programmers that contains a text e
 
  - Charts: Various charts and visualizations commonly used in Competitive Programming.
  
+ # Preview
+ 
+ <img width="500" alt="Screenshot 2023-05-01 110214" src="https://user-images.githubusercontent.com/119417646/235417855-1b67d190-fb09-4f3a-84c3-e1dd7199130b.png">
+<img width="500" alt="Screenshot 2023-05-01 110447" src="https://user-images.githubusercontent.com/119417646/235417862-eab179f6-724c-4fc0-aba8-1369192ee432.png">
+<img width="500" alt="Screenshot 2023-05-01 110519" src="https://user-images.githubusercontent.com/119417646/235417865-7951a8a8-c7f0-4168-a646-2feaca069b80.png">
+<img width="500" alt="Screenshot 2023-05-01 110537" src="https://user-images.githubusercontent.com/119417646/235417867-09961c11-3d8c-4bb9-b714-935d4a56dc5b.png">
+<img width="500" alt="Screenshot 2023-05-01 110626" src="https://user-images.githubusercontent.com/119417646/235417872-ce2a87f3-efdf-4a4c-b3b6-190d1207c580.png">
+
+ 
  # Contributing
  
 If you find any issues or have ideas for new features, feel free to open an issue or submit a pull request on the [GitHub repository](https://github.com/t-aswath/Kraft-Work). Contributions are always welcome!
