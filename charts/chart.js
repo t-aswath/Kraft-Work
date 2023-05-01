@@ -8,7 +8,7 @@ function createButton() {
   }
   var button = document.createElement("img");
   button.src = URL.createObjectURL(name);
-  button.width = 600;
+  button.width = 500;
   var input = document.getElementById("input");
   input.appendChild(button);
 }
