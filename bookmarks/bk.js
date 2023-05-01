@@ -1,11 +1,9 @@
 const container = document.getElementById("input");
+const next = document.getElementById("add");
 
 function addbookmark() {
   let name = document.createElement("input");
-  let link = document.createElement("input");
-  name.placeholder = "name";
-  link.placeholder = "link";
+  name.placeholder = "name:\nlink:";
   name.className = "add";
-  link.className = "add";
-  container.appendChild(name);
+  container.insertBefore(name, next);
 }

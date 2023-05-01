@@ -1,7 +1,11 @@
 const handleAppend = (value) => {
   let display = document.getElementById("display");
   if (value === "=") {
-    display.innerText = eval(display.innerText);
+    try {
+      display.innerText = eval(display.innerText);
+    } catch (err) {
+      display.innerText = "Syntaxerror";
+    }
   } else if (value === "AC") {
     display.innerText = "";
   } else if (value === "DEL") {

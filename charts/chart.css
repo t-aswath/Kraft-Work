@@ -1,10 +1,37 @@
 body {
   background: #004b84;
+  margin: 20px 20px;
 }
 
-.container {
+.panel {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 50%;
+  background: #f974a6;
+  border: 2px solid black;
+  border-radius: 10px;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
   background: #79c9fa;
-  height: 90%;
-  width: 90%;
-  justify-items: center;
+  border-radius: 10px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.add {
+  border-radius: 10px;
+  border: 2px solid black;
+  background: white;
+  height: 200px;
+  flex: 0 0 80%;
+}
+
+.add:hover {
+  background: whitesmoke;
 }
