@@ -8,11 +8,20 @@
   </head>
   <body>
     <div class="container">
-      <header id="title"><h1>BookMarks</h1></header>
+      <header id="title">
+        <h1>BookMarks</h1>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" class="add" id="name" name="name" />
+          <label for="link">Link:</label>
+          <input type="text" class="add" id="link" name="link" />
+          <button type="button" class="add" onclick="createButton()">
+            Create Button
+          </button>
+        </form>
+      </header>
       <br />
-      <section class="panel" id="input">
-        <button class="add" id="add" onclick="addbookmark()"><h1>+</h1></button>
-      </section>
+      <section class="panel" id="input"></section>
     </div>
   </body>
 </html>

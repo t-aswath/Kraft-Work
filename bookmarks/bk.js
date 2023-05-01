@@ -1,9 +1,18 @@
-const container = document.getElementById("input");
-const next = document.getElementById("add");
+function createButton() {
+  var nameInput = document.getElementById("name");
+  var linkInput = document.getElementById("link");
 
-function addbookmark() {
-  let name = document.createElement("input");
-  name.placeholder = "name:\nlink:";
-  name.className = "add";
-  container.insertBefore(name, next);
+  var name = nameInput.value;
+  var link = linkInput.value;
+
+  if (!name || !link) {
+    alert("Please enter a name and link.");
+    return;
+  }
+
+  var button = document.createElement("a");
+  button.href = link;
+  button.textContent = name;
+  var input = document.getElementById("input");
+  input.appendChild(button);
 }
