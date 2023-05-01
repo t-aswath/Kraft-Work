@@ -8,11 +8,18 @@
   </head>
   <body>
     <div class="container">
-      <header id="title"><h1>Charts</h1></header>
+      <header id="title">
+        <h1>Charts</h1>
+        <form>
+          <label for="name">SRC:</label>
+          <input type="file" class="add" id="name" name="name" />
+          <button type="button" class="add" onclick="createButton()">
+            Add img
+          </button>
+        </form>
+      </header>
       <br />
-      <section class="panel" id="input">
-        <button class="add" id="add" onclick="addcharts()"><h1>+</h1></button>
-      </section>
+      <section class="panel" id="input"></section>
     </div>
   </body>
 </html>
