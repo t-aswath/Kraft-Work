@@ -23,6 +23,8 @@ Kraft Work is a tool designed for Competitive Programmers that contains a text e
 <img width="500" alt="Screenshot 2023-05-01 110519" src="https://user-images.githubusercontent.com/119417646/235417865-7951a8a8-c7f0-4168-a646-2feaca069b80.png">
 <img width="500" alt="Screenshot 2023-05-01 110537" src="https://user-images.githubusercontent.com/119417646/235417867-09961c11-3d8c-4bb9-b714-935d4a56dc5b.png">
 <img width="500" alt="Screenshot 2023-05-01 110626" src="https://user-images.githubusercontent.com/119417646/235417872-ce2a87f3-efdf-4a4c-b3b6-190d1207c580.png">
+<img width="500" alt="Screenshot 2023-05-01 143312" src="https://user-images.githubusercontent.com/119417646/235432819-330120f0-d9e1-40d5-8aa0-135bd88ed878.png">
+
 
  
  # Contributing
