@@ -30,7 +30,7 @@
 <img width="500" alt="Screenshot 2023-05-01 110537" src="https://user-images.githubusercontent.com/119417646/235417867-09961c11-3d8c-4bb9-b714-935d4a56dc5b.png">
 <img width="500" alt="Screenshot 2023-05-01 110626" src="https://user-images.githubusercontent.com/119417646/235417872-ce2a87f3-efdf-4a4c-b3b6-190d1207c580.png">
 <img width="500" alt="Screenshot 2023-05-01 143312" src="https://user-images.githubusercontent.com/119417646/235432819-330120f0-d9e1-40d5-8aa0-135bd88ed878.png">
-![image_2023-05-01_163901327](https://user-images.githubusercontent.com/119417646/235444144-58c5f96f-4720-4912-9388-17ddafe6c6c6.png)
+<img width="500" src="https://user-images.githubusercontent.com/119417646/235444144-58c5f96f-4720-4912-9388-17ddafe6c6c6.png" />
 
 
  
