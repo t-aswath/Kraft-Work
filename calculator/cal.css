@@ -1,12 +1,12 @@
 body {
-  background: #004b84;
+  background: #000;
   font-family: monospace;
   font-weight: bold;
   font-size: 20px;
 }
 
 .container {
-  background: #79c9fa;
+  background: #a55ffa;
   border-radius: 10px;
   border: 1px solid black;
   padding: 10px;
@@ -23,6 +23,8 @@ body {
   width: 120px;
   border: 1px solid black;
   border-radius: 10px;
+  font-family: monospace;
+  font-size: 20px;
   text-align: center;
   background: #ffffff;
 }
@@ -32,6 +34,7 @@ body {
 
 .display {
   font-size: 20px;
+  font-family: monospace;
   background: white;
   width: 100%;
   height: 100px;

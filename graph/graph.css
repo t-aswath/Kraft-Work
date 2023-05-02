@@ -10,8 +10,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
   min-height: 100vh;
-  background: #004b84;
+  background: #000;
 }
 .container {
   display: flex;
@@ -21,7 +24,7 @@ body {
   max-width: 1050px;
 }
 section.tools-board {
-  background: #79c9fa;
+  background: #a55ffa;
   border-radius: 7px;
 }
 
@@ -56,7 +59,6 @@ section.drawing-board {
     brightness(100%) contrast(100%);
 }
 .option :where(span, label) {
-  color: #f974a6;
   cursor: pointer;
   padding-left: 10px;
 }
@@ -135,7 +137,8 @@ section.drawing-board {
   cursor: pointer;
 }
 .buttons .clear-canvas {
-  color: #6c757d;
+  color: #fff;
+  background: black;
   border: 1px solid #6c757d;
   transition: all 0.3s ease;
 }
@@ -144,7 +147,7 @@ section.drawing-board {
   background: #6c757d;
 }
 .buttons .save-img {
-  background: #f974a6;
+  background: #a55ffa;
   border: 1px solid #4a98f7;
 }
 .drawing-board {

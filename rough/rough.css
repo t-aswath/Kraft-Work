@@ -11,7 +11,10 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #004b84;
+  background: #000;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
 }
 .container {
   display: flex;
@@ -21,7 +24,7 @@ body {
   max-width: 1050px;
 }
 section {
-  background: #79c9fa;
+  background: #a55ffa;
   border-radius: 7px;
 }
 .tools-board {
@@ -46,7 +49,6 @@ section {
     brightness(100%) contrast(100%);
 }
 .option :where(span, label) {
-  color: #f974a6;
   cursor: pointer;
   padding-left: 10px;
 }
@@ -125,17 +127,15 @@ section {
   cursor: pointer;
 }
 .buttons .clear-canvas {
-  color: #6c757d;
-  border: 1px solid #6c757d;
+  color: white;
+  background: black;
+  border: 1px solid #000000;
   transition: all 0.3s ease;
 }
-.clear-canvas:hover {
-  color: #fff;
-  background: #6c757d;
-}
+
 .buttons .save-img {
-  background: #f974a6;
-  border: 1px solid #4a98f7;
+  background: #000000;
+  border: 1px solid #000000;
 }
 .drawing-board {
   flex: 1;

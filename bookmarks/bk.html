@@ -15,7 +15,7 @@
           <input type="text" class="add" id="name" name="name" />
           <label for="link">Link:</label>
           <input type="text" class="add" id="link" name="link" />
-          <button type="button" class="add" onclick="createButton()">
+          <button type="button" id="bk" class="add" onclick="createButton()">
             Create Button
           </button>
         </form>
@@ -23,5 +23,41 @@
       <br />
       <section class="panel" id="input"></section>
     </div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+      import {
+        getDatabase,
+        ref,
+        push,
+        set,
+        onValue,
+      } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-database.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyAJnNl3MDCCHkK9MTjn_UmLX_dDKamtf0o",
+        authDomain: "kraft-work.firebaseapp.com",
+        projectId: "kraft-work",
+        storageBucket: "kraft-work.appspot.com",
+        messagingSenderId: "1058168178009",
+        appId: "1:1058168178009:web:f3b837eb1ab323ad8bf848",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const database = getDatabase(app);
+      const button = document.getElementById("bk");
+      const save = async () => {
+        const name = document.getElementById("name").value;
+        const link = document.getElementById("link").value;
+        const storereff = ref(database, "users");
+        const newstorereff = push(storereff);
+        set(newstorereff, { name: name, link: link });
+      };
+      button.addEventListener("click", save);
+    </script>
   </body>
 </html>

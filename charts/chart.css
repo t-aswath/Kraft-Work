@@ -1,5 +1,8 @@
 body {
-  background: #004b84;
+  background: #000;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
   margin: 20px 20px;
 }
 
@@ -7,7 +10,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   min-height: 65%;
-  background: #f974a6;
+  background: #a55ffa;
   border: 2px solid black;
   border-radius: 10px;
   row-gap: 20px;
@@ -18,7 +21,7 @@ body {
 }
 
 #title {
-  background: #79c9fa;
+  background: #a55ffa;
   border-radius: 10px;
   border: 2px solid black;
   text-align: center;
@@ -28,6 +31,7 @@ body {
   border-radius: 10px;
   border: 2px solid black;
   background: white;
+  font-family: monospace;
   height: 25px;
 }
 

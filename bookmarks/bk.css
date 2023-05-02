@@ -1,13 +1,16 @@
 body {
-  background: #004b84;
+  background: #000;
   margin: 20px 20px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .panel {
   display: flex;
   flex-wrap: wrap;
   min-height: 65%;
-  background: #f974a6;
+  background: #a55ffa;
   border: 2px solid black;
   border-radius: 10px;
   row-gap: 20px;
@@ -16,7 +19,7 @@ body {
 }
 
 #title {
-  background: #79c9fa;
+  background: #a55ffa;
   border-radius: 10px;
   border: 2px solid black;
   text-align: center;
@@ -28,6 +31,7 @@ body {
   background: white;
   width: 15%;
   height: 25px;
+  font-family: monospace;
 }
 
 .add:hover {
@@ -44,7 +48,7 @@ a {
   line-height: 70px;
   text-align: center;
   color: black;
-  background-color: #79c9fa;
+  background-color: #a55ffa;
   text-decoration: none;
   border: 2px solid black;
   border-radius: 10px;

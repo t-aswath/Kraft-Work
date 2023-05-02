@@ -1,5 +1,5 @@
 body {
-  background: #004b84;
+  background: #000;
   font-family: monospace;
   font-weight: bold;
   font-size: 20px;
@@ -31,22 +31,22 @@ img {
 #griditem0 {
   border: white;
   background: white;
-  color: #f974a6;
+  color: #a55ffa;
   grid-row: 1 / span 2;
   justify-content: center;
 }
 
 #griditem1 {
-  border: #79c9fa;
-  background: #79c9fa;
+  border: #a55ffa;
+  background: #a55ffa;
   color: white;
   grid-row: 3;
   justify-content: center;
 }
 
 #griditem2 {
-  border: #f974a6;
-  background: #f974a6;
+  border: #a55ffa;
+  background: #a55ffa;
   color: white;
   grid-column: 2;
   grid-row: 1;
@@ -54,8 +54,8 @@ img {
 }
 
 #griditem3 {
-  border: #79c9fa;
-  background: #79c9fa;
+  border: #a55ffa;
+  background: #a55ffa;
   color: white;
   grid-column: 2;
   grid-row: 2;
@@ -63,8 +63,8 @@ img {
 }
 
 #griditem4 {
-  border: #f974a6;
-  background: #f974a6;
+  border: #a55ffa;
+  background: #a55ffa;
   color: white;
   grid-column: 2;
   grid-row: 3;
@@ -72,8 +72,8 @@ img {
 }
 
 #griditem5 {
-  border: #f974a6;
-  background: #f974a6;
+  border: #a55ffa;
+  background: #a55ffa;
   color: white;
   grid-column: 3 / span 2;
   grid-row: 1;
@@ -81,8 +81,8 @@ img {
 }
 
 #griditem6 {
-  border: #79c9fa;
-  background: #79c9fa;
+  border: #a55ffa;
+  background: #a55ffa;
   color: white;
   grid-column: 3;
   grid-row: 2 / span 2;
@@ -90,8 +90,8 @@ img {
 }
 
 #griditem7 {
-  border: #79c9fa;
-  background: #79c9fa;
+  border: #a55ffa;
+  background: #a55ffa;
   color: white;
   grid-column: 4;
   grid-row: 2 / span 2;
