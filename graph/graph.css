@@ -139,16 +139,13 @@ section.drawing-board {
 .buttons .clear-canvas {
   color: #fff;
   background: black;
-  border: 1px solid #6c757d;
+  border: 1px solid black;
   transition: all 0.3s ease;
 }
-.clear-canvas:hover {
-  color: #fff;
-  background: #6c757d;
-}
+
 .buttons .save-img {
-  background: #a55ffa;
-  border: 1px solid #4a98f7;
+  background: black;
+  border: 1px solid black;
 }
 .drawing-board {
   flex: 1;
