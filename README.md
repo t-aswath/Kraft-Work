@@ -24,15 +24,19 @@
  
  # Preview
  
- <img width="500" alt="Screenshot 2023-05-01 110214" src="https://user-images.githubusercontent.com/119417646/235417855-1b67d190-fb09-4f3a-84c3-e1dd7199130b.png">
-<img width="500" alt="Screenshot 2023-05-01 110447" src="https://user-images.githubusercontent.com/119417646/235417862-eab179f6-724c-4fc0-aba8-1369192ee432.png">
-<img width="500" alt="Screenshot 2023-05-01 110519" src="https://user-images.githubusercontent.com/119417646/235417865-7951a8a8-c7f0-4168-a646-2feaca069b80.png">
-<img width="500" alt="Screenshot 2023-05-01 110537" src="https://user-images.githubusercontent.com/119417646/235417867-09961c11-3d8c-4bb9-b714-935d4a56dc5b.png">
-<img width="500" alt="Screenshot 2023-05-01 110626" src="https://user-images.githubusercontent.com/119417646/235417872-ce2a87f3-efdf-4a4c-b3b6-190d1207c580.png">
-<img width="500" alt="Screenshot 2023-05-01 143312" src="https://user-images.githubusercontent.com/119417646/235432819-330120f0-d9e1-40d5-8aa0-135bd88ed878.png">
-<img width="500" src="https://user-images.githubusercontent.com/119417646/235444144-58c5f96f-4720-4912-9388-17ddafe6c6c6.png" />
+<img width="500" alt="Screenshot 2023-05-02 221301" src="https://user-images.githubusercontent.com/119417646/235738119-5372f1bc-f7e9-4170-8de3-5f7fed4c841d.png">
 
+<img width="500" alt="Screenshot 2023-05-02 223841" src="https://user-images.githubusercontent.com/119417646/235738126-00b746dd-1ed8-473f-bdb7-d59132e2d922.png">
 
+<img width="500" alt="Screenshot 2023-05-02 223903" src="https://user-images.githubusercontent.com/119417646/235738130-1bd45bf0-7f53-43fd-9dbd-c68ce3dcb6ee.png">
+
+<img width="500" alt="Screenshot 2023-05-02 224001" src="https://user-images.githubusercontent.com/119417646/235738134-914c0ef6-1537-4ba3-80ed-287d780c6e89.png">
+
+<img width="500" alt="Screenshot 2023-05-02 224021" src="https://user-images.githubusercontent.com/119417646/235738136-c4193535-28d2-41c0-85f6-0684b51620d6.png">
+
+<img width="500" alt="Screenshot 2023-05-02 224446" src="https://user-images.githubusercontent.com/119417646/235738139-8e4778cf-b54e-4c47-8679-ae03a9e154e5.png">
+
+<img width="500" alt="Screenshot 2023-05-02 224514" src="https://user-images.githubusercontent.com/119417646/235738140-15bc2c3d-3ef8-4351-8809-03c3fe9234a5.png">
  
  # Contributing
  
