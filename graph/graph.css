@@ -29,10 +29,7 @@ section.tools-board {
 }
 
 section.drawing-board {
-  background-image: radial-gradient(
-    rgb(192, 197, 206) 1px,
-    rgb(237, 240, 244) 1px
-  );
+  background-image: radial-gradient(rgb(192, 197, 206) 1px, white 1px);
   background-size: 15px 15px;
   border-radius: 7px;
 }
