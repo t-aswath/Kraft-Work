@@ -5,6 +5,24 @@
     <link rel="stylesheet" href="chart.css" />
     <title>Kraft Work | Charts</title>
     <script src="chart.js" defer></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../imgs/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../imgs/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../imgs/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../imgs/site.webmanifest" />
   </head>
   <body>
     <div class="container">
@@ -13,7 +31,7 @@
         <form>
           <label for="name">SRC:</label>
           <input type="file" class="add" id="name" name="name" />
-          <button type="button" class="add" onclick="createButton()">
+          <button type="button" id="bk" class="add" onclick="createButton()">
             Add img
           </button>
         </form>
@@ -22,4 +40,40 @@
       <section class="panel" id="input"></section>
     </div>
   </body>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+    import {
+      getDatabase,
+      ref,
+      push,
+      set,
+      onValue,
+    } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-database.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyAJnNl3MDCCHkK9MTjn_UmLX_dDKamtf0o",
+      authDomain: "kraft-work.firebaseapp.com",
+      projectId: "kraft-work",
+      storageBucket: "kraft-work.appspot.com",
+      messagingSenderId: "1058168178009",
+      appId: "1:1058168178009:web:f3b837eb1ab323ad8bf848",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const button = document.getElementById("bk");
+    const save = async () => {
+      const name = document.getElementById("name").files[0];
+      const link = URL.createObjectURL(name);
+      const storereff = ref(database, "pics");
+      const newstorereff = push(storereff);
+      set(newstorereff, { link: link });
+    };
+    button.addEventListener("click", save);
+  </script>
 </html>
